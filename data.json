@@ -1,0 +1,102 @@
+{
+    "user": {
+        "fullName": "Ofentse Lebese",
+        "photo1": "Profile.jpeg"
+    },
+    "city": {
+        "heading": "A city I would like to visit",
+        "name": "Paris (City of Light)",
+        "photo2": "paris.jpeg",
+        "description": "Paris is a city I'd love to visit because whenever I see it on TV, it looks absolutely incredible. The buildings there are so beautiful, especially that tower thing, the Eiffel Tower, I think it's called. And they have these amazing old churches and museums with famous paintings and stuff. The food looks amazing too, like they have these fancy pastries and delicious meals."
+    },
+    "foreignLanguage": {
+        "heading": "Foreign language I would like to learn",
+        "language": "Spanish",
+        "description": "I'd like to learn Spanish because it sounds so beautiful and classy. Plus, I think it would be really cool to be able to speak with people from different countries and understand Spanish movies and songs. Learning Spanish could open up new opportunities for me to travel and connect with others around the world.",
+        "phrases": [
+            {
+                "englishPhrase": "Hello",
+                "foreignLanguage": "Hola"
+            },
+            {
+                "englishPhrase": "Thank you",
+                "foreignLanguage": "Gracias"
+            },
+            {
+                "englishPhrase": "Goodbye",
+                "foreignLanguage": "Adiós"
+            },
+            {
+                "englishPhrase": "How are you?",
+                "foreignLanguage": "¿Cómo estás?"
+            },
+            {
+                "englishPhrase": "Yes",
+                "foreignLanguage": "Sí"
+            }
+        ]
+    },
+    "subjects": {
+        "headin": "Three favourite subjects: Accenture 4IR WRP",
+        "headin2": "Favourite Subjects",
+        "favouriteSubjects": [
+            {
+                "name": "Agile Rapid Skills",
+                "photo": "images/agile.png"
+            },
+            {
+                "name": "Full Stack Web Development",
+                "photo": "images/full-stack.png"
+            },
+            {
+                "name": "4IR Technologies",
+                "photo": "images/technology.png"
+            }
+        ]
+    },
+    "historicPlaces": {
+        "headin": "Historic places in Pretoria",
+        "headin2": "Historic Places"
+    },
+    "place1": {
+        "name": "Voortrekker Monument", 
+        "pic": "images/Voortrekker.jpeg",
+        "description1": [
+                    "Inaugurated in 1949",
+                    "One of the longest historical artworks",
+                    "Stands 40 meters tall"
+                ]
+    },
+            
+    "place2": {
+        "name": "Union Buildings",
+        "pic": "images/union_buildings.jpeg",
+        "description2": [
+            "Completed in 1913",
+            "Holds official seat of SA government",
+            "A national heritage site"
+        ]
+    },
+            
+    "place3": {
+        "name": "Freedom Park",  
+        "pic": "images/freedom_park.jpeg",
+        "description3": [
+                    "Established in 2000",
+                    "Includes SA's freedom museum",
+                    "The park offers a panoramic view of Pretoria"
+        ]
+    },
+
+    "footer": {
+        "email": "fentselebese@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/ofentse-lebese/",
+        "github": "https://github.com/ofentse-lebese",
+        "twitter": "https://twitter.com/ofentse_lebese",
+        "copyright": "Copyright © 2021"
+    }
+}
+
+
+
+   

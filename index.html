@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>materialize_webpage</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="materialize.min.css" media="screen,projection" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .bg-grey {
+            background-color: black;
+            padding-bottom: auto;
+            padding: 6px;
+        }
+
+        .center {
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="divider"></div>
+    <div class="section">
+        <section class="container">
+            <div class="row">
+                <div class="col s12 m6">
+                    <h2>{{user.fullName}}</h2>
+                </div>
+                <div class="col s12 m6">
+                    <img src="images/{{user.photo1}}" alt="Profile Picture" class="responsive-img circle" width="200">
+                </div>
+            </div>
+        </section>
+
+
+        <section class="container">
+            <div class="row">
+                <h3>{{city.heading}}</h3>
+            </div>
+            <div class="row">
+                <h4>{{city.name}}</h4>
+            </div>
+            <div class="row">
+                <div class="col s12 m6">
+                    <img src="images/{{city.photo2}}" alt="Paris" width="330">
+                </div>
+                <div class="col s12 m6">
+                    <p>{{city.description}}</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="row">
+                <h3>{{foreignLanguage.heading}}</h3>
+            </div>
+            <div class="row">
+                <h4>{{foreignLanguage.language}}</h4>
+                <p>
+                    {{foreignLanguage.description}}
+                </p>
+                <h5>Phrases in Spanish</h5>
+            </div>
+            <div class="row">
+                <table border="1" width="100%">
+                    <tr>
+                        <th>English</th>
+                        <th>Spanish</th>
+                    </tr>
+                    {{#each foreignLanguage.phrases}}
+                    <tr>
+                        <td>{{englishPhrase}}</td>
+                        <td>{{foreignLanguage}}</td>
+                    </tr>
+                    {{/each}}
+                </table>
+            </div>
+        </section>
+
+        <section class="container">
+            <h3>{{subjects.headin}}</h3>
+            <h4>{{subjects.headin2}}</h4>
+            <div class="row">
+                {{#each subjects.favouriteSubjects}}
+                <div class="col s12 m14 l4">
+                    <h5>{{name}}</h5>
+                    <img src="{{photo}}" width="250">
+                </div>
+                {{/each}}
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="row">
+                <h3>{{historicPlaces.headin}}</h3>
+                <h4>{{historicPlaces.headin2}}</h4>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="row">
+                <div class="col s12 m4 l4">
+                    <div class="row">
+                        <div class="col s6 m12 l6">
+                            <h5>{{place1.name}}</h5>
+                            <p>{{#each place1.description1}}{{this}}<br>{{/each}}</p>
+                        </div>
+                        <div class="col s6 m12 l6">
+                            <img src="{{place1.pic}}" width="150">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m4 l4 hide-on-small-only">
+                    <div class="row">
+                        <div class="col s6 m12 l6">
+                            <h5>{{place2.name}}</h5>
+                            <p>{{#each place2.description2}}{{this}}<br>{{/each}}</p>
+                        </div>
+                        <div class="col s6 m12 l6">
+                            <img src="{{place2.pic}}" width="150">
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4 l4 hide-on-med-and-up">
+                    <div class="row">
+                        <div class="col s6 m12 l6 offset-l3">
+                            <img src="{{place2.pic}}" width="150">
+                        </div>
+                        <div class="col s6 m12 l6">
+                            <h5>{{place2.name}}</h5>
+                            <p>{{#each place2.description2}}{{this}}<br>{{/each}}</p>
+                        </div>
+                       
+                    </div>
+                </div>
+
+                <div class="col s12 m4 l4">
+                    <div class="row">
+                        <div class="col s6 m12 l6">
+                            <h5>{{place3.name}}</h5>
+                            <p>{{#each place3.description3}}{{this}}<br>{{/each}}</p>
+                        </div>
+                        <div class="col s6 m12 l6">
+                            <img src="{{place3.pic}}" width="150">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container bg-grey">
+            <div class="row">
+                <div class="col m3">
+                    <p><a href="mailto:{{footer.email}}" target="_blank"><i class="fas fa-envelope"></i></a></p>
+                </div>
+                <div class="col m3">
+                    <p><a href="{{footer.linkedin}}" target="_blank"><i class="fab fa-linkedin"></i></a></p>
+                </div>
+                <div class="col m3">
+                    <p><a href="{{footer.github}}" target="_blank"><i class="fab fa-github"></i></a></p>
+                </div>
+                <div class="col m3">
+                    <p><a href="{{footer.twitter}}" target="_blank"><i class="fab fa-twitter"></i></a></p>
+                </div>
+                <div class="col s12 center">
+                    <p>{{footer.copyright}}</p>
+                </div>
+            </div>
+        </section>
+
+        <!--JavaScript at end of body for optimized loading-->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+
+</html>
