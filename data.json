@@ -1,12 +1,12 @@
 {
     "user": {
         "fullName": "Ofentse Lebese",
-        "photo1": "Profile.jpeg"
+        "photo1": "./images/Profile.jpeg"
     },
     "city": {
         "heading": "A city I would like to visit",
         "name": "Paris (City of Light)",
-        "photo2": "paris.jpeg",
+        "photo2": "./images/paris.jpeg",
         "description": "Paris is a city I'd love to visit because whenever I see it on TV, it looks absolutely incredible. The buildings there are so beautiful, especially that tower thing, the Eiffel Tower, I think it's called. And they have these amazing old churches and museums with famous paintings and stuff. The food looks amazing too, like they have these fancy pastries and delicious meals."
     },
     "foreignLanguage": {
@@ -42,15 +42,15 @@
         "favouriteSubjects": [
             {
                 "name": "Agile Rapid Skills",
-                "photo": "images/agile.png"
+                "photo": "./images/agile.png"
             },
             {
                 "name": "Full Stack Web Development",
-                "photo": "images/full-stack.png"
+                "photo": "./images/full-stack.png"
             },
             {
                 "name": "4IR Technologies",
-                "photo": "images/technology.png"
+                "photo": "./images/technology.png"
             }
         ]
     },
@@ -60,7 +60,7 @@
     },
     "place1": {
         "name": "Voortrekker Monument", 
-        "pic": "images/Voortrekker.jpeg",
+        "pic": "./images/Voortrekker.jpeg",
         "description1": [
                     "Inaugurated in 1949",
                     "One of the longest historical artworks",
@@ -70,7 +70,7 @@
             
     "place2": {
         "name": "Union Buildings",
-        "pic": "images/union_buildings.jpeg",
+        "pic": "./images/union_buildings.jpeg",
         "description2": [
             "Completed in 1913",
             "Holds official seat of SA government",
@@ -80,7 +80,7 @@
             
     "place3": {
         "name": "Freedom Park",  
-        "pic": "images/freedom_park.jpeg",
+        "pic": "./images/freedom_park.jpeg",
         "description3": [
                     "Established in 2000",
                     "Includes SA's freedom museum",
